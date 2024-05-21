@@ -1,0 +1,38 @@
+.Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+    flex-direction: column;
+    gap:20px;
+}
+
+.Wrapper button{
+    background-color: brown;
+    padding:10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Accordian{
+width:500px;
+}
+
+.item{
+    background-color: aqua;
+    margin-bottom:10px;
+    padding :10px 20px;
+}
+
+.title{
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+
+.content{
+height:auto;
+}
